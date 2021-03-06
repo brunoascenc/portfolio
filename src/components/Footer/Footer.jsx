@@ -96,9 +96,14 @@ const Copy = styled.div`
     display: flex;
     align-items: center;
     margin-bottom: 10px;
-    p {
+    a {
       font-size: 1.8rem;
       margin-left: 5px;
+      color: #c7bfd4;
+      &:hover {
+        color: #ece4e4;
+        transition: 0.2s ease;
+      }
     }
   }
 
@@ -147,7 +152,7 @@ const Footer = () => {
         </ContactInfo>
         <Copy>
           <div>
-            <AiFillGithub size={45} /> <p>Website repository</p>
+            <AiFillGithub size={45} /> <a href="https://github.com/brunoascenc/portfolio">Website repository</a>
           </div>
           <span>© copyright 2021 Bruno Ascenção</span>
         </Copy>

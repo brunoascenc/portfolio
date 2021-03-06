@@ -101,9 +101,9 @@ const Skills = () => {
     <>
       <Title id="skills">Skills</Title>
       <SkillSection>
-        {/* <Title>Skills</Title> */}
         <Particles
           className="particles"
+          height={window.outerHeight}
           params={{
             particles: {
               number: {
@@ -115,7 +115,7 @@ const Skills = () => {
               },
               line_linked: {
                 enable: true,
-                opacity: 0.02,
+                opacity: 0.05,
               },
               move: {
                 direction: "right",

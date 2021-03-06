@@ -93,6 +93,7 @@ const Header = () => {
         <Title>B</Title>
         <Particles
           className="particles"
+          height={window.outerHeight}
           params={{
             particles: {
               number: {
@@ -104,7 +105,7 @@ const Header = () => {
               },
               line_linked: {
                 enable: true,
-                opacity: 0.02,
+                opacity: 0.05,
               },
               move: {
                 direction: "right",
