@@ -227,7 +227,7 @@ const Projects = () => {
             <a href="https://github.com/brunoascenc/hzone">
               <AiFillGithub size={20} /> <p>Code</p>
             </a>
-            <a href="https://hzone.netlify.com/">
+            <a href="https://hzonecommerce.netlify.app/">
               <BiWorld size={20} /> <p>Website</p>
             </a>
           </ProjectLinks>
