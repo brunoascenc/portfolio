@@ -1,9 +1,9 @@
-import React from "react";
-import Movix from "../../assets/movix-dktp.png";
-import Hzone from "../../assets/hzone-dktp.png";
-import { AiFillGithub } from "react-icons/ai";
-import { BiWorld } from "react-icons/bi";
-import styled, { keyframes } from "styled-components";
+import React from 'react';
+import Movix from '../../assets/movix-dktp.png';
+import Hzone from '../../assets/hzone-dktp.png';
+import { AiFillGithub } from 'react-icons/ai';
+import { BiWorld } from 'react-icons/bi';
+import styled, { keyframes } from 'styled-components';
 
 const Fade = keyframes`
   0% {
@@ -26,7 +26,7 @@ const Title = styled.h1`
   margin-top: 65px;
   animation: ${Fade} 2s ease;
   &::after {
-    content: "";
+    content: '';
     background: #666060;
     width: 50px;
     height: 1px;
@@ -197,12 +197,12 @@ const Projects = () => {
           <h2>Movix</h2>
           <ProjectText>
             Search and discover new movies and releases with movix! The data
-            were taken from the{" "}
+            were taken from the{' '}
             <a href="https://developers.themoviedb.org/3">TMDB api</a>.
           </ProjectText>
           <Tecnologies>ReactJS | SCSS | Redux</Tecnologies>
           <ProjectLinks>
-            <a href="https://github.com/brunoascenc/movix-react/tree/master/movix">
+            <a href="https://github.com/brunoascenc/movix-react">
               <AiFillGithub size={20} /> <p>Code</p>
             </a>
             <a href="https://movixapp.netlify.app/">
